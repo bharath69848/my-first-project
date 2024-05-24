@@ -18,7 +18,12 @@ from langchain.prompts import PromptTemplate
 
 def main():   
     # Get Groq API key
-    groq_api_key = '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'
+    api_key = [ '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',
+                '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',
+                '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',
+                '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',
+                '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']
+    groq_api_key = random.choice(api_key)
 
     # The title and greeting message of the Streamlit application
     st.image('logo.png')
