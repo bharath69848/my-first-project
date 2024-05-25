@@ -32,7 +32,7 @@ def main():
     background_image = """
     <style>
     [data-testid="stAppViewContainer"] > .main {
-        background-image: url("https://i.ibb.co/f8r0Dst/bgfor.png");
+        background-image: url("https://i.ibb.co/GQKnNG2/bg.png");
         background-size: 100vw 100vh;
         background-position: center;  
         background-repeat: no-repeat;
